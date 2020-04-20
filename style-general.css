@@ -175,6 +175,7 @@ PROFILE CAROUSEL
 	background-color: white;
 	color: #0A64FF;
 	padding: 0;
+	cursor: pointer;
 }
 
 .profile-card-button:hover {
