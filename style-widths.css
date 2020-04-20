@@ -1,0 +1,478 @@
+/*
+--------------
+MEDIA WIDTH SETTINGS
+--------------
+*/
+
+/* --- MOBILE --- */
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+
+	h1	{
+		font-size: 2em;
+		line-height: 1.75em;
+	}
+
+	/* --- COVER --- */
+
+	#home-cover {
+		height: 21em;
+	}
+
+	#home-cover h1 {
+		padding-top: 2em;
+		max-width: 12.5em;
+	}
+
+	/* --- PROFILE CAROUSEL --- */
+
+	#profile-carousel {
+		height: 30em;
+		margin-top: -3em;
+	}
+
+	#profile-card-spacer-1,
+	#profile-card-spacer-2,
+	#profile-card-2,
+	#profile-card-3 {
+		display: none;
+	}
+
+	.profile-card-arrows {
+		width: 28em;
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+		margin-left: -14em;
+		margin-top: 15.5em;
+	}
+
+	.profile-card {
+		height: 30em; 
+		width: 25em;
+	}
+
+	.profile-card-name {
+		font-size: 1.8em;
+		padding-top: 1em;
+	}
+
+	.profile-card-category {
+		font-size: 1.6em;
+		padding-top: 1em;
+	}
+
+	.profile-card-button {
+		width: 12em;
+		height: 3em;
+		margin-top: 1.25em;
+	}
+
+	/* --- CHARLIE ABOUT --- */
+
+	#charlie-about {
+		margin-top: 6em;
+	}
+
+	#charlie-about img {
+		height: 20em;
+		margin-top: 2.5em;
+	}
+
+	#charlie-about-steps {
+		margin-top: 4em;
+	}
+
+	.charlie-about-step {
+		height: 14em;
+		width: 26em;
+	}
+
+	.charlie-about-step-spacer {
+		height: 1.5em;
+		width: 26em;
+	}
+
+	.step-blue-block {
+		height: 5em;
+		width: 26em;
+	}
+
+	.step-number {
+		font-size: 3.5em;
+		line-height: 1.42em;
+	}
+
+	.step-title {
+		font-size: 1.8em;
+		padding-top: 0.9em;
+	}
+
+	.step-text {
+		font-size: 1.2em;
+		line-height: 1.5em;
+
+		margin: 0.5em auto 0 auto;
+		width: 18em;
+	}
+
+	/* --- CHARLIE PARTNERS --- */
+
+	h2 {
+		font-size: 1.6em;
+		line-height: 1.5em;
+	}
+
+	#charlie-partners {
+		margin-top: 6em;
+	}
+
+	#charlie-partners-grid {
+		margin-top: 0.5em;
+		width: 31em;
+		grid-gap: 1em;
+		grid-template-columns: auto auto;
+	}
+
+	/* --- CHARLIE SPONSORS --- */
+
+	#charlie-sponsors {
+		margin-top: 4em;
+		height: 22em;
+		text-align: center;
+	}
+
+	#charlie-sponsors h2 {
+		padding: 3em 0 1.5em 0;
+		width: 11em;
+		margin: auto;
+	}
+
+	#charlie-sponsors img {
+		width: 28em;
+		mix-blend-mode: multiply;
+	}
+
+
+}
+
+/* --- TABLET --- */
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+
+	h1	{
+		font-size: 2.5em;
+		line-height: 1.6em;
+	}
+
+	/* --- COVER --- */
+
+	#home-cover {
+		height: 23.5em;
+	}
+
+	#home-cover h1 {
+		padding-top: 3em;
+		max-width: 16em;
+	}
+
+	/* --- PROFILE CAROUSEL --- */
+
+	#profile-carousel {
+		height: 30em;
+		margin-top: -3em;
+	}
+
+	#profile-card-spacer-2,
+	#profile-card-3 {
+		display: none;
+	}
+
+	.profile-card-arrows {
+		width: 54em;
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+		margin-left: -27em;
+		margin-top: 15.5em;
+	}
+
+	.profile-card {
+		height: 30em; 
+		width: 25em;
+	}
+
+	.profile-card-spacer {
+		height: 30em;
+		width: 1em;
+	}
+
+	.profile-card-name {
+		font-size: 1.8em;
+		padding-top: 1em;
+	}
+
+	.profile-card-category {
+		font-size: 1.6em;
+		padding-top: 1em;
+	}
+
+	.profile-card-button {
+		width: 12em;
+		height: 3em;
+		margin-top: 1.25em;
+	}
+
+	/* --- CHARLIE ABOUT --- */
+
+	#charlie-about {
+		margin-top: 7em;
+	}
+
+	#charlie-about img {
+		height: 25em;
+		margin-top: 3em;
+	}
+
+	#charlie-about-steps {
+		margin-top: 4em;
+	}
+
+	.charlie-about-step {
+		height: 8.8em;
+		width: 34em;
+	}
+
+	.charlie-about-step-spacer {
+		height: 1.5em;
+		width: 34em;
+		margin: auto;
+	}
+
+	.step-blue-block {
+		height: 8.8em;
+		width: 8.8em;
+		display: inline-block;
+		float: left;
+	}
+
+	.step-number {
+		font-size: 3.5em;
+		line-height: 2.6em;
+
+	}
+
+	.step-title {
+		font-size: 1.8em;
+		padding-top: 0.9em;
+		text-align: left;
+
+		margin: 0 0 0 6em;
+		width: 12em;
+	}
+
+	.step-text {
+		font-size: 1.2em;
+		line-height: 1.5em;
+		text-align: left;
+
+		margin: 0.5em 0 0 9em;
+		width: 18em;
+	}
+
+	/* --- CHARLIE PARTNERS --- */
+
+	h2 {
+		font-size: 2em;
+		line-height: 2em;
+	}
+
+	#charlie-partners {
+		margin-top: 7em;
+	}
+
+	#charlie-partners-grid {
+		margin-top: 1em;
+		width: 41em;
+		grid-gap: 1em;
+		grid-template-columns: auto auto;
+	}
+
+	/* --- CHARLIE SPONSORS --- */
+
+	#charlie-sponsors {
+		margin-top: 5em;
+		height: 20em;
+		text-align: center;
+	}
+
+	#charlie-sponsors h2 {
+		padding: 1.7em 0 1em 0;
+		margin: auto;
+	}
+
+	#charlie-sponsors img {
+		width: 38em;
+		mix-blend-mode: multiply;
+	}
+
+}
+
+/* --- DESKTOP --- */
+
+@media only screen and (min-width: 1024px) {
+
+	h1	{
+		font-size: 4em;
+		line-height: 1.375em;
+	}
+
+	/* --- COVER --- */
+
+	#home-cover {
+		height: 33.5em;
+	}
+
+	#home-cover h1 {
+		padding-top: 2.5em;
+		max-width: 15em;
+	}
+
+	/* --- PROFILE CAROUSEL --- */
+
+	#profile-carousel {
+		height: 36em;
+		margin-top: -4em;
+	}
+
+	.profile-card-arrows {
+		display: none;
+	}
+
+	.profile-card {
+		height: 36em; 
+		width: 29em;
+	}
+
+	.profile-card-spacer {
+		height: 36em;
+		width: 1.5em;
+	}
+
+	.profile-card-name {
+		font-size: 2.4em;
+		padding-top: 1em;
+	}
+
+	.profile-card-category {
+		font-size: 1.6em;
+		padding-top: 1.4em;
+	}
+
+	.profile-card-button {
+		width: 15em;
+		height: 3.5em;
+		margin-top: 1.5em;
+	}
+
+	/* --- CHARLIE ABOUT --- */
+
+	#charlie-about {
+		margin-top: 9em;
+	}
+
+	#charlie-about h1 {
+		font-size: 3.5em;
+		margin-bottom: 2em;
+	}
+
+	#charlie-about img {
+		height: 32.5em;
+		display: inline-block;
+	}
+
+	#charlie-about-steps {
+		display: inline-block;
+		margin-left: 10em;
+	}
+
+	.charlie-about-step {
+		height: 10em;
+		width: 42em;
+	}
+
+	.charlie-about-step-spacer {
+		height: 1.5em;
+		width: 34em;
+		margin: auto;
+	}
+
+	.step-blue-block {
+		height: 10em;
+		width: 10em;
+		display: inline-block;
+		float: left;
+	}
+
+	.step-number {
+		font-size: 4em;
+		line-height: 2.5em;
+
+	}
+
+	.step-title {
+		font-size: 2em;
+		padding-top: 0.8em;
+		text-align: left;
+
+		margin: 0 0 0 6em;
+		width: 12em;
+	}
+
+	.step-text {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		text-align: left;
+
+		margin: 0.5em 0 0 8em;
+		width: 18em;
+	}
+
+	/* --- CHARLIE PARTNERS --- */
+
+	h2 {
+		font-size: 2.5em;
+		line-height: 2em;
+	}
+
+	#charlie-partners {
+		margin-top: 9em;
+	}
+
+	#charlie-partners-grid {
+		margin-top: 1.5em;
+		width: 85em;
+		grid-gap: 1em;
+		grid-template-columns: auto auto auto auto;
+	}
+
+	/* --- CHARLIE SPONSORS --- */
+
+	#charlie-sponsors {
+		margin-top: 5em;
+		height: 20em;
+		text-align: center;
+	}
+
+	#charlie-sponsors h2 {
+		font-size: 2em;
+		padding: 1.7em 0 1em 0;
+		margin: auto;
+	}
+
+	#charlie-sponsors img {
+		width: 38em;
+		mix-blend-mode: multiply;
+	}
+
+}

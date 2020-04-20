@@ -1,0 +1,287 @@
+/*
+--------------
+IMPORTS
+--------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+
+
+/*
+--------------
+BASIC FIXES & SETTINGS
+--------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*
+--------------
+TYPOGRAPHY
+--------------
+*/
+
+h1	{
+	font-weight: 800;
+	font-style: italic;
+	color: #0A64FF;
+
+	text-align: center;
+}
+
+h2 {
+	font-weight: 800;
+	font-style: italic;
+	color: #AAAAAA;
+
+	text-align: center;	
+}
+
+
+/*
+--------------
+HEADER
+--------------
+*/
+
+header {
+	height: 9em;
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+
+	text-align: center;
+}
+
+header a {
+	height: 9em;
+	width: 16em;
+}
+
+#menu-logo {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#menu-logo img {
+	height: 3em;
+	margin: 3em auto;
+}
+
+
+/*
+--------------
+COVER
+--------------
+*/
+
+#home-cover {
+	margin-top: 9em;
+
+	background-color: #0A64FF;
+	text-align: center;
+
+	position: relative;
+	z-index: -1;
+}
+
+#home-cover h1 {
+	color: white;
+	margin: auto;
+}
+
+
+/*
+--------------
+PROFILE CAROUSEL
+--------------
+*/
+
+#profile-carousel {
+	margin: 0 auto;
+
+	text-align: center;
+
+	position: relative;
+}
+
+.arrow-button-left,
+.arrow-button-right {
+	height: 3em;
+	width: 3em;
+}
+
+.arrow-button-left {
+	float: left;
+}
+
+.arrow-button-right {
+	float: right;
+}
+
+.profile-card,
+.profile-card-spacer {
+	display: inline-block;
+}
+
+.profile-card {
+	background-color: white;
+	border-radius: 0.5em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: auto;
+
+	overflow: hidden;
+}
+
+.profile-card-name,
+.profile-card-category,
+.profile-card-button {
+	text-align: center;
+}
+
+.profile-card-name {
+	font-weight: 800;
+	font-style: italic;
+	color: #1E3149;
+}
+
+.profile-card-category {
+	color: #0A64FF;
+}
+
+.profile-card-button {
+	border: 1px solid #0A64FF;
+	border-radius: 0.5em;
+	font-weight: 700;
+	font-size: 1.5em;
+	background-color: white;
+	color: #0A64FF;
+	padding: 0;
+}
+
+.profile-card-button:hover {
+	background-color: #0A64FF;
+	color: white;
+}
+
+
+/*
+--------------
+CHARLIE ABOUT
+--------------
+*/
+
+#charlie-about {
+	margin: 0 auto;
+
+	text-align: center;
+}
+
+#charlie-about h1 {
+	color: #0A64FF;
+}
+
+.charlie-about-step {
+	background-color: white;
+	border-radius: 0.5em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: auto;
+
+	overflow: hidden;
+}
+
+.step-number,
+.step-title {
+	font-weight: 800;
+	font-style: italic;
+	color: #0A64FF;	
+}
+
+.step-text {
+	color: #1E3149;
+}
+
+.step-blue-block {
+	background-color: #F0F6FF;
+}
+
+
+/*
+--------------
+CHARLIE PARTNERS
+--------------
+*/
+
+#charlie-partners {
+
+}
+
+#charlie-partners-grid {
+	display: grid;
+	margin: auto;
+}
+
+
+/*
+--------------
+CHARLIE SPONSORS
+--------------
+*/
+
+#charlie-sponsors {
+	background-color: #F7F7F7;
+}
+
+
+
+
+
+
+
+/*
+--------------
+FOOTER
+--------------
+*/
+
+footer {
+	height: 9em;
+	width: 100%;
+
+	background-color: #101E30;
+
+	text-align: center;
+}
+
+footer a {
+	height: 9em;
+	width: 16em;
+}
+
+#menu-logo {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#menu-logo img {
+	height: 3em;
+	margin: 3em auto;
+}
