@@ -1,0 +1,291 @@
+/*
+--------------
+MEDIA WIDTH SETTINGS
+--------------
+*/
+
+/* --- MOBILE --- */
+
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+
+	h1	{
+		font-size: 2.5em;
+		line-height: 1.75em;
+	}
+
+	h2 {
+		font-size: 1.8em;
+		line-height: 1.3em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+		line-height: 1.5em;
+	}
+
+	/* --- COVER --- */
+
+	#reward-cover {
+		height: 11em;
+	}
+
+	#reward-cover h1 {
+		padding-top: 0.8em;
+		color: white;
+	}
+
+	/* --- REWARD CARD --- */
+
+	#reward-card {
+		height: 69em;
+		width: 25em;
+		margin-top: -3em;
+		margin-bottom: 5em;
+	}
+
+	#reward-card h2 {
+		padding-top: 1.5em;
+		width: 12em;
+		margin: auto;
+	}
+
+	#reward-card h3 {
+		padding-top: 2em;
+		width: 15em;
+	}
+
+	#reward-partners-grid {
+		height: 27em;
+		width: 19em;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		grid-gap: 1em;
+		grid-template-columns: auto;
+	}
+
+	.reward-partner img {
+		height: 6em;
+		width: 12em;
+	}
+
+	br {
+		/* display: none; */
+	}
+
+	#reward-email-input {
+		height: 4.5em;
+		width: 22.5em;
+		margin-top: 2em;
+	}
+
+	#reward-email-input p {
+		font-size: 1.2em;
+		font-weight: 700;
+		line-height: 0;
+		padding: 1.8em 0 0 1.5em;	
+	}
+
+	#reward-button {
+		height: 4.5em;
+		width: 22.5em;
+		margin-top: 3em;
+	}
+
+	#reward-button p {
+		font-size: 1.6em;
+		padding-top: 0.95em;
+	}
+
+}
+
+/* --- TABLET --- */
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+
+	h1	{
+		font-size: 2.5em;
+		line-height: 1.75em;
+	}
+
+	h2 {
+		font-size: 2em;
+		line-height: 1.3em;
+	}
+
+	h3 {
+		font-size: 1.6em;
+		line-height: 1.5em;
+	}
+
+	/* --- COVER --- */
+
+	#reward-cover {
+		height: 11em;
+	}
+
+	#reward-cover h1 {
+		padding-top: 0.8em;
+		color: white;
+	}
+
+	/* --- REWARD CARD --- */
+
+	#reward-card {
+		height: 62em;
+		width: 51em;
+		margin-top: -3em;
+		margin-bottom: 5em;
+	}
+
+	#reward-card h2 {
+		padding-top: 1.5em;
+		width: 22.5em;
+		margin: auto;
+	}
+
+	#reward-card h3 {
+		padding-top: 2em;
+		width: 25em;
+	}
+
+	#reward-partners-grid {
+		height: 22em;
+		width: 42em;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		grid-gap: 2em;
+		grid-template-columns: auto auto;
+	}
+
+	.reward-partner img {
+		height: 10em;
+		width: 20em;
+		padding-top: 0.25em;
+	}
+
+	br {
+		display: none;
+	}
+
+	#reward-email-input {
+		height: 4.5em;
+		width: 42em;
+		margin-top: 2em;
+	}
+
+	#reward-email-input p {
+		font-size: 1.2em;
+		font-weight: 700;
+		line-height: 0;
+		padding: 1.8em 0 0 1.5em;	
+	}
+
+	#reward-button {
+		height: 4.5em;
+		width: 22.5em;
+		margin-top: 3em;
+	}
+
+	#reward-button p {
+		font-size: 1.6em;
+		padding-top: 0.95em;
+	}
+
+}
+
+/* --- DESKTOP --- */
+
+@media only screen and (min-width: 1024px) {
+
+	h1	{
+		font-size: 4em;
+		line-height: 1.75em;
+	}
+
+	h2 {
+		font-size: 2.4em;
+		line-height: 1.3em;
+	}
+
+	h3 {
+		font-size: 1.8em;
+		line-height: 1.5em;
+	}
+
+	/* --- COVER --- */
+
+	#reward-cover {
+		height: 21em;
+	}
+
+	#reward-cover h1 {
+		padding-top: 0.8em;
+		color: white;
+	}
+
+	/* --- REWARD CARD --- */
+
+	#reward-card {
+		height: 66.5em;
+		width: 90em;
+		margin-top: -9em;
+		margin-bottom: 10em;
+	}
+
+	#reward-card h2 {
+		padding-top: 1.5em;
+		width: 22.5em;
+		margin: auto;
+	}
+
+	#reward-card h3 {
+		padding-top: 2em;
+		width: 25em;
+	}
+
+	#reward-partners-grid {
+		height: 22em;
+		width: 42em;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		grid-gap: 2em;
+		grid-template-columns: auto auto;
+	}
+
+	.reward-partner img {
+		height: 10em;
+		width: 20em;
+		padding-top: 0.25em;
+	}
+
+	br {
+		display: none;
+	}
+
+	#reward-email-input {
+		height: 4.5em;
+		width: 42em;
+		margin-top: 2em;
+	}
+
+	#reward-email-input p {
+		font-size: 1.2em;
+		font-weight: 700;
+		line-height: 0;
+		padding: 1.8em 0 0 1.5em;	
+	}
+
+	#reward-button {
+		height: 5em;
+		width: 35em;
+		margin-top: 5em;
+	}
+
+	#reward-button p {
+		font-size: 1.6em;
+		padding-top: 1.1em;
+	}
+
+
+
+}
