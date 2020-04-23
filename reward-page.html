@@ -15,7 +15,6 @@
 
 <body>
 
-
 <!--
 NAVIGATION BAR
 -->
@@ -40,31 +39,84 @@ REWARD CARD
 
 <section id="reward-section">
 	
-	<div id="reward-card">
+	<form id="reward-card" method="get" action="congratulations-page.html">
 
 		<h2>Thanks for donating <br> to Zerango!</h2>
 
 		<h3>Choose your <br> $5 giftcard reward</h3>
 
 		<div id="reward-partners-grid">
-			<div class="reward-partner"><img src="img/partner-1.png"></div>
-			<div class="reward-partner"><img src="img/partner-2.png"></div>
-			<div class="reward-partner"><img src="img/partner-3.png"></div>
-			<div class="reward-partner"><img src="img/partner-4.png"></div>
+
+			<!-- MOBILE VERSION -->
+
+			<label class="partner-mobile">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-1" name="partner">
+					<img src="img/partner-1.1.png">
+				</div>
+			</label>
+
+			<label class="partner-mobile">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-1" name="partner">
+					<img src="img/partner-2.1.png">
+				</div>
+			</label>
+
+			<label class="partner-mobile">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-1" name="partner">
+					<img src="img/partner-3.1.png">
+				</div>
+			</label>
+
+			<label class="partner-mobile">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-1" name="partner">
+					<img src="img/partner-4.1.png">
+				</div>
+			</label>
+
+			<!-- DESKTOP VERSION -->
+
+			<label class="partner-desktop">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-1" name="partner">
+					<img src="img/partner-1.png">
+				</div>
+			</label>
+
+			<label class="partner-desktop">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-2" name="partner">
+					<img src="img/partner-2.png">
+				</div>
+			</label>
+
+			<label class="partner-desktop">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-3" name="partner">
+					<img src="img/partner-3.png">
+				</div>
+			</label>
+
+			<label class="partner-desktop">
+				<div class="reward-partner">
+					<input type="radio" class="reward-partner" id="partner-4" name="partner">
+					<img src="img/partner-4.png">
+				</div>
+			</label>
+
 		</div>
 
 		<h3>Enter your email to receive your reward code</h3>
 
-		<div id="reward-email-input">
-			<p>Your Email</p>
-		</div>
+		<input type="email" id="reward-email-input" name="email" placeholder="Your Email">
 
-		<div id="reward-button">
-			<p>Get your Reward</p>
-		</div>
+   		<button id="reward-button" type="submit">Get your Reward</button>
 
-	</div>
 
+	</form>
 
 
 </section>

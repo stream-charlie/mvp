@@ -98,7 +98,8 @@ COVER
 --------------
 */
 
-#reward-cover {
+#reward-cover,
+#congrats-cover {
 	margin-top: 9em;
 
 	background-color: #0A64FF;
@@ -108,18 +109,46 @@ COVER
 	z-index: -1;
 }
 
+#reward-cover h1,
+#congrats-cover h1 {
+	padding-top: 0.8em;
+	color: white;
+}
+
 
 /*
 --------------
-REWARD CARD
+CARD
 --------------
 */
 
-#reward-card {
+#reward-card,
+#congrats-card {
 	background-color: white;
 	border-radius: 0.5em;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	margin: auto;
+	text-align: center;
+}
+
+/* REWARD CARD */
+
+/* REWARD FORM STYLING */
+
+[type=radio] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+[type=radio] + img {
+	cursor: pointer;
+}
+
+[type=radio]:checked + img {
+	box-shadow: 0 0 5px #0A64FF;
+	border-radius: 5px;
 }
 
 #reward-partners-grid {
@@ -130,7 +159,6 @@ REWARD CARD
 .reward-partner {
 	border: 1px solid #D8D8D8;
 	border-radius: 0.5em;
-	text-align: center;
 }
 
 .reward-partner img {
@@ -140,8 +168,13 @@ REWARD CARD
 #reward-email-input {
 	border: 1px solid #AAAAAA;
 	border-radius: 0.5em;
-	color: #AAAAAA;
+	color: #0A64FF;
 	margin: auto;
+	text-align: left;
+
+	font-weight: 700;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 #reward-button {
@@ -149,12 +182,28 @@ REWARD CARD
 	margin: auto;
 	background-color: #0A64FF; /* For browsers that do not support gradients */
 	background-image: linear-gradient(160deg, #189DFF, #0A64FF);
+
+	color: white;
+	font-weight: 700;
+	padding: 0;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
 }
 
 #reward-button p {
 	color: white;
 	font-weight: 800;
-	text-align: center;
+	margin: auto;
+}
+
+/* CONGRATS CARD */
+
+#congrats-card p {
+	color: #1E3149;
+}
+
+#congrats-card h2,
+#congrats-card p {
 	margin: auto;
 }
 
@@ -163,6 +212,7 @@ REWARD CARD
 FOOTER
 --------------
 */
+
 
 footer {
 	height: 9em;

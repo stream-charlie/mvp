@@ -25,23 +25,29 @@ MEDIA WIDTH SETTINGS
 
 	/* --- COVER --- */
 
-	#reward-cover {
+	#reward-cover,
+	#congrats-cover {
 		height: 11em;
 	}
 
-	#reward-cover h1 {
-		padding-top: 0.8em;
-		color: white;
-	}
+	/* --- GENERAL CARDS --- */
 
-	/* --- REWARD CARD --- */
-
-	#reward-card {
-		height: 69em;
+	#reward-card,
+	#congrats-card {
 		width: 25em;
 		margin-top: -3em;
-		margin-bottom: 5em;
+		margin-bottom: 5em;		
 	}
+
+	#reward-card {
+		height: 70em;
+	}
+
+	#congrats-card {
+		height: 38em;	
+	}
+
+	/* --- REWARDS CARD --- */
 
 	#reward-card h2 {
 		padding-top: 1.5em;
@@ -54,6 +60,10 @@ MEDIA WIDTH SETTINGS
 		width: 15em;
 	}
 
+	#reward-card br {
+		/* display: none; */
+	}
+
 	#reward-partners-grid {
 		height: 27em;
 		width: 19em;
@@ -63,37 +73,58 @@ MEDIA WIDTH SETTINGS
 		grid-template-columns: auto;
 	}
 
-	.reward-partner img {
-		height: 6em;
-		width: 12em;
+	.partner-mobile {
+
 	}
 
-	br {
-		/* display: none; */
+	.partner-desktop {
+		display: none;
+	}
+
+	.reward-partner img {
+		height: 5.8em;
+		width: 18.8em;
+	}
+
+	.reward-partner {
+		height: 6em;
 	}
 
 	#reward-email-input {
-		height: 4.5em;
-		width: 22.5em;
-		margin-top: 2em;
-	}
-
-	#reward-email-input p {
 		font-size: 1.2em;
-		font-weight: 700;
-		line-height: 0;
-		padding: 1.8em 0 0 1.5em;	
+		height: 3.75em;
+		width: 18.75em;
+		margin-top: 2em;
+		padding-left: 1.3em;
 	}
 
 	#reward-button {
-		height: 4.5em;
-		width: 22.5em;
-		margin-top: 3em;
+		height: 3.125em;
+		width: 14em;
+		margin-top: 2em;
+
+		font-size: 1.6em;
+		line-height: 0;
+		padding-top: 0.1em;
 	}
 
-	#reward-button p {
-		font-size: 1.6em;
-		padding-top: 0.95em;
+	/* --- CONGRATS CARD --- */
+
+	#congrats-card img {
+		height: 12em;
+		margin-top: 4em;
+	}
+
+	#congrats-card h2 {
+		padding-top: 1.5em;
+		width: 11em;
+	}
+
+	#congrats-card p {
+		padding-top: 2em;
+		width: 16.6em;
+		font-size: 1.2em;
+		line-height: 1.5em;
 	}
 
 }
@@ -119,23 +150,29 @@ MEDIA WIDTH SETTINGS
 
 	/* --- COVER --- */
 
-	#reward-cover {
+	#reward-cover,
+	#congrats-cover {
 		height: 11em;
 	}
 
-	#reward-cover h1 {
-		padding-top: 0.8em;
-		color: white;
-	}
+	/* --- GENERAL CARDS --- */
 
-	/* --- REWARD CARD --- */
+	#reward-card,
+	#congrats-card {
+		width: 51em;
+		margin-top: -3em;
+		margin-bottom: 5em;		
+	}
 
 	#reward-card {
 		height: 62em;
-		width: 51em;
-		margin-top: -3em;
-		margin-bottom: 5em;
 	}
+
+	#congrats-card {
+		height: 40em;	
+	}
+
+	/* --- REWARD CARD --- */
 
 	#reward-card h2 {
 		padding-top: 1.5em;
@@ -148,8 +185,12 @@ MEDIA WIDTH SETTINGS
 		width: 25em;
 	}
 
+	#reward-card br {
+		display: none;
+	}
+
 	#reward-partners-grid {
-		height: 22em;
+		height: 22.4em;
 		width: 42em;
 		margin-top: 2em;
 		margin-bottom: 2em;
@@ -157,38 +198,58 @@ MEDIA WIDTH SETTINGS
 		grid-template-columns: auto auto;
 	}
 
-	.reward-partner img {
-		height: 10em;
-		width: 20em;
-		padding-top: 0.25em;
-	}
-
-	br {
+	.partner-mobile {
 		display: none;
 	}
 
-	#reward-email-input {
-		height: 4.5em;
-		width: 42em;
-		margin-top: 2em;
+	.partner-desktop {
+
 	}
 
-	#reward-email-input p {
-		font-size: 1.2em;
-		font-weight: 700;
-		line-height: 0;
-		padding: 1.8em 0 0 1.5em;	
+	.reward-partner img {
+		height: 10em;
+		width: 20em;
+	}
+
+	.reward-partner {
+		height: 10.2em;
+	}
+
+	#reward-email-input {
+		font-size: 1.4em;
+		height: 3.2em;
+		width: 30em;
+		margin-top: 1.6em;
+		padding-left: 1.2em;
 	}
 
 	#reward-button {
-		height: 4.5em;
-		width: 22.5em;
-		margin-top: 3em;
+		height: 3.125em;
+		width: 20em;
+		margin-top: 2.5em;
+
+		font-size: 1.6em;
+		line-height: 0;
+		padding-top: 0.1em;
 	}
 
-	#reward-button p {
-		font-size: 1.6em;
-		padding-top: 0.95em;
+	/* --- CONGRATS CARD --- */
+
+	#congrats-card img {
+		height: 15em;
+		margin-top: 5.5em;
+	}
+
+	#congrats-card h2 {
+		padding-top: 1.5em;
+		width: 21em;
+	}
+
+	#congrats-card p {
+		padding-top: 2em;
+		width: 25em;
+		font-size: 1.2em;
+		line-height: 1.5em;
 	}
 
 }
@@ -214,23 +275,29 @@ MEDIA WIDTH SETTINGS
 
 	/* --- COVER --- */
 
-	#reward-cover {
+	#reward-cover,
+	#congrats-cover {
 		height: 21em;
 	}
 
-	#reward-cover h1 {
-		padding-top: 0.8em;
-		color: white;
-	}
+	/* --- GENERAL CARDS --- */
 
-	/* --- REWARD CARD --- */
+	#reward-card,
+	#congrats-card {
+		width: 90em;
+		margin-top: -9em;
+		margin-bottom: 10em;		
+	}
 
 	#reward-card {
 		height: 66.5em;
-		width: 90em;
-		margin-top: -9em;
-		margin-bottom: 10em;
 	}
+
+	#congrats-card {
+		height: 48em;	
+	}
+
+	/* --- REWARD CARD --- */
 
 	#reward-card h2 {
 		padding-top: 1.5em;
@@ -243,6 +310,10 @@ MEDIA WIDTH SETTINGS
 		width: 25em;
 	}
 
+	#reward-card br {
+		display: none;
+	}
+
 	#reward-partners-grid {
 		height: 22em;
 		width: 42em;
@@ -252,40 +323,60 @@ MEDIA WIDTH SETTINGS
 		grid-template-columns: auto auto;
 	}
 
-	.reward-partner img {
-		height: 10em;
-		width: 20em;
-		padding-top: 0.25em;
-	}
-
-	br {
+	.partner-mobile {
 		display: none;
 	}
 
-	#reward-email-input {
-		height: 4.5em;
-		width: 42em;
-		margin-top: 2em;
+	.partner-desktop {
+
 	}
 
-	#reward-email-input p {
-		font-size: 1.2em;
-		font-weight: 700;
-		line-height: 0;
-		padding: 1.8em 0 0 1.5em;	
+	.reward-partner img {
+		height: 10em;
+		width: 20em;
+	}
+
+	.reward-partner {
+		height: 10.2em;
+	}
+
+	#reward-email-input {
+		font-size: 1.4em;
+		height: 3.2em;
+		width: 30em;
+		margin-top: 1.6em;
+		padding-left: 1.2em;
+		display: block;
 	}
 
 	#reward-button {
-		height: 5em;
-		width: 35em;
-		margin-top: 5em;
-	}
+		height: 3.125em;
+		width: 20em;
+		margin-top: 3em;
 
-	#reward-button p {
 		font-size: 1.6em;
-		padding-top: 1.1em;
+		line-height: 0;
+		padding-top: 0.1em;
 	}
 
+	/* --- CONGRATS CARD --- */
+
+	#congrats-card img {
+		height: 20em;
+		margin-top: 6em;
+	}
+
+	#congrats-card h2 {
+		padding-top: 1.5em;
+		width: 21em;
+	}
+
+	#congrats-card p {
+		padding-top: 2em;
+		width: 22em;
+		font-size: 1.6em;
+		line-height: 1.375em;
+	}
 
 
 }
