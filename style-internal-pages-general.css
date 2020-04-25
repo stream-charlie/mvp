@@ -37,7 +37,8 @@ TYPOGRAPHY
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
 	font-weight: 800;
 	font-style: italic;
 	text-align: center;
@@ -53,6 +54,10 @@ h2 {
 }
 
 h3 {
+	color: #1E3149;
+}
+
+h4 {
 	color: #AAAAAA;
 }
 
@@ -99,7 +104,8 @@ COVER
 */
 
 #reward-cover,
-#congrats-cover {
+#congrats-cover,
+#donate-cover {
 	margin-top: 9em;
 
 	background-color: #0A64FF;
@@ -107,11 +113,6 @@ COVER
 
 	position: relative;
 	z-index: -1;
-}
-
-#reward-cover h1,
-#congrats-cover h1 {
-	padding-top: 0.8em;
 	color: white;
 }
 
@@ -123,7 +124,11 @@ CARD
 */
 
 #reward-card,
-#congrats-card {
+#congrats-card,
+#highlight-card,
+#donation-card,
+#donation-preview-card,
+#donation-summary-card {
 	background-color: white;
 	border-radius: 0.5em;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -190,12 +195,6 @@ CARD
 	font-family: 'Poppins', sans-serif;
 }
 
-#reward-button p {
-	color: white;
-	font-weight: 800;
-	margin: auto;
-}
-
 /* CONGRATS CARD */
 
 #congrats-card p {
@@ -205,6 +204,198 @@ CARD
 #congrats-card h2,
 #congrats-card p {
 	margin: auto;
+}
+
+/* HIGHLIGHT CARD */
+
+
+
+/* DONATION CARD */
+
+#donation-title {
+	color: #0A64FF;
+}
+
+#donation-name-input {
+	border: 1px solid #AAAAAA;
+	border-radius: 0.5em;
+	color: #0A64FF;
+	margin: auto;
+	text-align: left;
+
+	font-weight: 700;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#donation-box {
+	border: 1px solid #AAAAAA;
+	border-radius: 0.5em;
+	color: #0A64FF;
+	margin: auto;
+}
+
+#donation-amount-symbol {
+	float: left;
+	color: #1E3149;
+	font-weight: 800;
+}
+
+#donation-amount-input {
+	font-size: 3em;
+	line-height: 0;
+	border: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: 800;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #0A64FF;
+}
+
+#donation-amount-currency {
+	float: right;
+	color: #1E3149;
+	font-weight: 800;
+}
+
+#donation-amount-currency p {
+	float: left;
+}
+
+#donation-amount-currency img {
+	margin-top: 0.5em;
+}
+
+#donation-reward-wrapper {
+	position: relative;
+	text-align: center;
+}
+
+#donation-reward-arrows {
+	position: absolute;
+	width: 19.5em;
+	margin: 4.5em 1.4em 0 1.4em;
+}
+
+#arrow-simple-left,
+#arrow-simple-right {
+	width: 1.5em;
+	height: 1em;
+}
+
+#arrow-simple-left {
+	float: left;
+	transform: rotate(90deg);
+}
+
+#arrow-simple-right {
+	float: right;
+	transform: rotate(-90deg);
+}
+
+.donation-reward-box {
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	color: #AAA;
+}
+
+.reward-box-tier,
+.reward-box-donated,
+.reward-box-reward,
+.reward-box-partners {
+	font-family: 'Poppins', sans-serif;	
+}
+
+.reward-box-tier,
+.reward-box-reward {
+	font-weight: 800;
+}
+
+#donation-message-input {
+	border: 1px solid #AAAAAA;
+	border-radius: 0.5em;
+	color: #0A64FF;
+	margin: auto;
+	text-align: left;
+
+	font-weight: 700;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+#donation-gif-wrapper {
+	position: relative;
+}
+
+#donation-gif-arrows {
+	position: absolute;
+}
+
+.donation-gif-box {
+	border: 1px solid #AAAAAA;
+	border-radius: 0.5em;
+	color: #0A64FF;
+	margin: auto;
+
+	height: 9em;
+	width: 9em;
+	display: inline-block;
+}
+
+.donation-gif {
+	height: 7em;
+	width: 7em;
+	margin: 0.9em;
+}
+
+#donation-button {
+	border-radius: 0.5em;
+	margin: auto;
+	background-color: #0A64FF; /* For browsers that do not support gradients */
+	background-image: linear-gradient(160deg, #189DFF, #0A64FF);
+
+	color: white;
+	font-weight: 700;
+	padding: 0;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+}
+
+#donation-preview-box {
+	border: 1px solid #AAAAAA;
+	border-radius: 0.5em;
+	color: #0A64FF;
+	margin: auto;
+}
+
+#donation-preview-info,
+#donation-preview-message {
+	font-weight: 700;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #1E3149;
+}
+
+span {
+	color: #0A64FF; 
+}
+
+#donation-summary-card {
+	font-weight: 700;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #1E3149;
+}
+
+#summary-symbol,
+#summary-amount,
+#summary-currency {
+	display: inline-block;
+}
+
+#summary-reward {
+	color: #0A64FF;
 }
 
 /*

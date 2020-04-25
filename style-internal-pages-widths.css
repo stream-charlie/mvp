@@ -16,21 +16,37 @@ MEDIA WIDTH SETTINGS
 	h2 {
 		font-size: 1.8em;
 		line-height: 1.3em;
+
+		padding-top: 1.5em;
+		width: 12em;
+		margin: auto;
 	}
 
 	h3 {
+		font-size: 1.6em;
+	}
+
+	h4 {
 		font-size: 1.4em;
 		line-height: 1.5em;
 	}
 
-	/* --- COVER --- */
+/* --- COVER --- */
 
 	#reward-cover,
-	#congrats-cover {
+	#congrats-cover,
+	#donate-cover {
 		height: 11em;
 	}
 
-	/* --- GENERAL CARDS --- */
+	#reward-cover h1,
+	#congrats-cover h1,
+	#donate-cover h1 {
+		padding-top: 0.8em;
+		color: white;
+	}
+
+/* --- GENERAL CARDS --- */
 
 	#reward-card,
 	#congrats-card {
@@ -47,15 +63,32 @@ MEDIA WIDTH SETTINGS
 		height: 38em;	
 	}
 
-	/* --- REWARDS CARD --- */
-
-	#reward-card h2 {
-		padding-top: 1.5em;
-		width: 12em;
-		margin: auto;
+	#highlight-card {
+		height: 27em;
+		width: 25em;
+		margin-top: -3em;
 	}
 
-	#reward-card h3 {
+	#donation-card {
+		height: 67em;
+		width: 25em;
+	}
+
+	#donation-preview-card {
+		height: 33em;
+		width: 25em;
+		margin-top: 2.5em;
+	}
+
+	#donation-summary-card {
+		height: 24em;
+		width: 25em;
+		margin: 2.5em auto 5em auto;
+	}
+
+/* --- REWARDS CARD --- */
+
+	#reward-card h4 {
 		padding-top: 2em;
 		width: 15em;
 	}
@@ -74,7 +107,7 @@ MEDIA WIDTH SETTINGS
 	}
 
 	.partner-mobile {
-
+		/* display: none; */
 	}
 
 	.partner-desktop {
@@ -108,7 +141,7 @@ MEDIA WIDTH SETTINGS
 		padding-top: 0.1em;
 	}
 
-	/* --- CONGRATS CARD --- */
+/* --- CONGRATS CARD --- */
 
 	#congrats-card img {
 		height: 12em;
@@ -116,7 +149,6 @@ MEDIA WIDTH SETTINGS
 	}
 
 	#congrats-card h2 {
-		padding-top: 1.5em;
 		width: 11em;
 	}
 
@@ -126,6 +158,207 @@ MEDIA WIDTH SETTINGS
 		font-size: 1.2em;
 		line-height: 1.5em;
 	}
+
+/* --- HIGHLIGHT CARD --- */
+
+	#highlight-card-placeholder {
+		background-color: #EEE;
+		height: 17em;
+		width: 22.5em;
+		margin: 2.5em auto 0 auto;
+	}
+
+/* --- DONATION CARD --- */
+
+	#donation-title {
+		font-size: 2em;
+		margin: 1.5em auto;
+	}
+
+	#donation-name-input {
+		font-size: 1.2em;
+		height: 3.75em;
+		width: 18.75em;
+		margin-top: 2em;
+		padding-left: 1.3em;
+	}
+
+	#donation-box {
+		height: 23em;
+		width: 22.5em;
+		margin-top: 1.5em;
+	}
+
+	#donation-box h3 {
+		margin-top: 1.2em;
+	}
+
+	#donation-amount-wrapper {
+		height: 3.5em;
+		width: 19.5em;
+		margin: 1em auto 0 auto;
+	}
+
+	#donation-amount-symbol {
+		font-size: 2.2em;
+		margin-top: 0.6em;
+	}
+
+	#donation-amount-input {
+		width: 4.5em;
+	}
+
+	#donation-amount-currency {
+		width: 4.6em;
+		margin-top: 1.8em;
+	}
+
+	#donation-amount-currency p {
+		font-size: 1.5em;
+	}
+
+	#donation-amount-currency img {
+		margin-left: 0.25em;
+	}
+
+	.donation-reward-box {
+		height: 10em;
+		width: 15em;
+		margin: 2em auto 0 auto;
+	}
+
+	#donation-reward-arrows {
+		/* display: none; */
+	}
+
+	#donation-reward-box-1 {
+		/* display: none; */
+	}
+
+	#donation-reward-box-2 {
+		display: none;
+	}
+
+	#donation-reward-box-3 {
+		display: none;
+	}
+
+	.reward-box-tier {
+		font-size: 1.5em;
+		margin-top: 0.6em;
+	}
+
+	.reward-box-donated {
+		margin-top: 0.25em;
+	}
+
+	.reward-box-reward {
+		font-size: 1.25em;
+		margin-top: 1em;
+	}
+
+	.reward-box-partners {
+		margin-top: 0.4em;
+		line-height: 1.25em;
+	}
+
+	#donation-message-input {
+		font-size: 1.2em;
+		height: 3.75em;
+		width: 18.75em;
+		margin-top: 1.5em;
+		padding-left: 1.3em;
+	}
+
+	#donation-card h3 {
+		margin-top: 1.5em;
+	}
+
+	#donation-gif-arrows {
+		width: 15em;
+		margin: 5.5em 5em 0 5em;
+	}
+
+	.donation-gif-box {
+		margin: 1.4em auto 0 auto;
+	}
+
+	#donation-gif-box-2,
+	#donation-gif-box-3,
+	#donation-gif-box-4 {
+		display: none;
+	}
+
+	#donation-button {
+		height: 3.125em;
+		width: 14em;
+		margin-top: 2em;
+
+		font-size: 1.6em;
+		line-height: 0;
+		padding-top: 0.1em;
+	}
+
+/* --- DONATION PREVIEW CARD --- */
+
+	#donation-preview-card br {
+		/* display: none; */
+	}
+
+	#donation-preview-box {
+		height: 21em;
+		width: 18em;
+		margin: 2.5em auto;
+	}
+
+	#donation-preview-box img {
+		height: 9em;
+		width: 9em;
+		margin: 2em auto 1em auto;
+	}
+
+	#donation-preview-info {
+		font-size: 1.2em;
+		line-height: 1.6em;
+	}
+
+	#donation-preview-info br {
+		/* display: none; */		
+	}
+
+	#donation-preview-message {
+		margin-top: 1em;
+	}
+
+/* --- SUMMARY CARD --- */
+
+	.summary-headline {
+		font-size: 1.4em;
+		margin-top: 1em;
+	}
+
+	#summary-amount-box {
+		margin-top: 1.5em;
+	}
+
+	#summary-symbol {
+		font-size: 2.5em;
+	}
+
+	#summary-amount {
+		font-size: 2.5em;
+		margin: 0 0.5em;
+	}
+
+	#summary-currency {
+		font-size: 1.5em;
+	}
+
+	#summary-reward {
+		font-size: 2.5em;
+		margin-top: 0.5em;
+	}
+
 
 }
 
@@ -141,9 +374,17 @@ MEDIA WIDTH SETTINGS
 	h2 {
 		font-size: 2em;
 		line-height: 1.3em;
+
+		padding-top: 1.5em;
+		width: 22.5em;
+		margin: auto;
 	}
 
 	h3 {
+		font-size: 1.8em;
+	}
+
+	h4 {
 		font-size: 1.6em;
 		line-height: 1.5em;
 	}
@@ -151,9 +392,17 @@ MEDIA WIDTH SETTINGS
 	/* --- COVER --- */
 
 	#reward-cover,
-	#congrats-cover {
+	#congrats-cover,
+	#donate-cover {
 		height: 11em;
 	}
+
+	#reward-cover h1,
+	#congrats-cover h1,
+	#donate-cover h1 {
+		padding-top: 0.8em;
+		color: white;
+	}	
 
 	/* --- GENERAL CARDS --- */
 
@@ -172,15 +421,38 @@ MEDIA WIDTH SETTINGS
 		height: 40em;	
 	}
 
-	/* --- REWARD CARD --- */
-
-	#reward-card h2 {
-		padding-top: 1.5em;
-		width: 22.5em;
-		margin: auto;
+	#highlight-card {
+		height: 45em;
+		width: 51em;
+		margin-top: -3em;
 	}
 
-	#reward-card h3 {
+	#donation-card {
+		height: 82em;
+		width: 51em;
+	}
+
+	#donation-preview-card {
+		height: 34em;
+		width: 22em;
+		float: left;
+	}
+
+	#donation-summary-card {
+		height: 28em;
+		width: 26.5em;
+		float: right;
+	}
+
+	#donation-preview-summary-container {
+		width: 51em;
+		height: 34em;
+		margin: 2.5em auto 5em auto;
+	}
+
+	/* --- REWARD CARD --- */
+
+	#reward-card h4 {
 		padding-top: 2em;
 		width: 25em;
 	}
@@ -203,7 +475,7 @@ MEDIA WIDTH SETTINGS
 	}
 
 	.partner-desktop {
-
+		/* display: none; */
 	}
 
 	.reward-partner img {
@@ -241,7 +513,6 @@ MEDIA WIDTH SETTINGS
 	}
 
 	#congrats-card h2 {
-		padding-top: 1.5em;
 		width: 21em;
 	}
 
@@ -251,6 +522,223 @@ MEDIA WIDTH SETTINGS
 		font-size: 1.2em;
 		line-height: 1.5em;
 	}
+
+/* --- HIGHLIGHT CARD --- */
+
+	#highlight-card-placeholder {
+		background-color: #EEE;
+		height: 32em;
+		width: 41.5em;
+		margin: 2.5em auto 0 auto;
+	}
+
+/* --- DONATION CARD --- */
+
+	#donation-title {
+		margin: 1.5em auto;
+	}
+
+	#donation-name-input {
+		font-size: 1.2em;
+		height: 3.75em;
+		width: 38em;
+		margin-top: 2em;
+		padding-left: 1.3em;
+	}
+
+	#donation-box {
+		height: 34.5em;
+		width: 45.6em;
+		margin-top: 1.5em;
+	}
+
+	#donation-box h3 {
+		margin-top: 1.2em;
+	}
+
+	#donation-amount-wrapper {
+		height: 3.5em;
+		width: 41.5em;
+		margin: 1.5em auto 0 auto;
+	}
+
+	#donation-amount-symbol {
+		font-size: 2.4em;
+		margin-top: 0.6em;
+	}
+
+	#donation-amount-input {
+		width: 4.5em;
+		margin-left: 1em;
+	}
+
+	#donation-amount-currency {
+		width: 5em;
+		margin-top: 1.8em;
+	}
+
+	#donation-amount-currency p {
+		font-size: 1.7em;
+	}
+
+	#donation-amount-currency img {
+		margin-left: 0.25em;
+	}
+
+	#donation-reward-wrapper {
+		margin-top: 2em;
+	}
+
+	.donation-reward-box {
+		height: 6em;
+		width: 41.5em;
+		margin: 1em auto 0 auto;
+		padding: 1.4em 2em;
+	}
+
+	#donation-reward-arrows {
+		display: none;
+	}
+
+	#donation-reward-box-1,
+	#donation-reward-box-2,
+	#donation-reward-box-3 {
+		/* display: none; */
+	}
+
+	.reward-box-left {
+		float: left;
+	}
+
+	.reward-box-right {
+		float: right;
+	}
+
+	.reward-box-tier,
+	.reward-box-donated {
+		text-align: left;
+	}
+
+	.reward-box-reward,
+	.reward-box-partners {
+		text-align: right;
+	}
+
+	.reward-box-tier,
+	.reward-box-reward {
+		font-size: 1.6em;
+	}
+
+	.reward-box-donated,
+	.reward-box-partners {
+		margin-top: 0.5em;
+	}
+
+	#donation-message-input {
+		font-size: 1.2em;
+		height: 3.75em;
+		width: 38em;
+		margin-top: 1.5em;
+		padding-left: 1.3em;
+	}
+
+	#donation-card h3 {
+		margin-top: 1.5em;
+	}
+
+	#donation-gif-wrapper {
+		height: 11em;
+		width: 44.5em;
+		margin: 0 3.25em;
+	}
+
+	#donation-gif-arrows {
+		width: 44.5em;
+		margin: 6em auto 0 auto;
+	}
+
+	.donation-gif-box {
+		margin: 2em 0.5em 0 0.5em;
+	}
+
+	#donation-button {
+		height: 3.125em;
+		width: 20em;
+		margin-top: 2.5em;
+
+		font-size: 1.6em;
+		line-height: 0;
+		padding-top: 0.1em;
+	}
+
+/* --- DONATION PREVIEW CARD --- */
+
+	#donation-preview-card h2 {
+		width: 10em;
+	}
+
+	#donation-preview-card br {
+		/* display: none; */
+	}
+
+	#donation-preview-box {
+		height: 21em;
+		width: 18em;
+		margin: 2.5em auto;
+	}
+
+	#donation-preview-box img {
+		height: 9em;
+		width: 9em;
+		margin: 2em auto 1em auto;
+	}
+
+	#donation-preview-info {
+		font-size: 1.2em;
+		line-height: 1.6em;
+	}
+
+	#donation-preview-info br {
+		/* display: none; */		
+	}
+
+	#donation-preview-message {
+		margin-top: 1em;
+	}
+
+/* --- SUMMARY CARD --- */
+
+	#donation-summary-card h2 {
+		width: 10em;
+	}
+
+	.summary-headline {
+		font-size: 1.4em;
+		margin-top: 1.75em;
+	}
+
+	#summary-amount-box {
+		margin-top: 1.5em;
+	}
+
+	#summary-symbol {
+		font-size: 2.5em;
+	}
+
+	#summary-amount {
+		font-size: 2.5em;
+		margin: 0 0.5em;
+	}
+
+	#summary-currency {
+		font-size: 1.5em;
+	}
+
+	#summary-reward {
+		font-size: 2.5em;
+		margin-top: 0.5em;
+	}
+
 
 }
 
@@ -266,21 +754,37 @@ MEDIA WIDTH SETTINGS
 	h2 {
 		font-size: 2.4em;
 		line-height: 1.3em;
+
+		padding-top: 1.5em;
+		width: 22.5em;
+		margin: auto;
 	}
 
 	h3 {
 		font-size: 1.8em;
+	}
+
+	h4 {
+		font-size: 1.8em;
 		line-height: 1.5em;
 	}
 
-	/* --- COVER --- */
+/* --- COVER --- */
 
 	#reward-cover,
-	#congrats-cover {
+	#congrats-cover,
+	#donate-cover {
 		height: 21em;
 	}
 
-	/* --- GENERAL CARDS --- */
+	#reward-cover h1,
+	#congrats-cover h1,
+	#donate-cover h1 {
+		padding-top: 0.65em;
+		color: white;
+	}
+
+/* --- GENERAL CARDS --- */
 
 	#reward-card,
 	#congrats-card {
@@ -297,15 +801,45 @@ MEDIA WIDTH SETTINGS
 		height: 48em;	
 	}
 
-	/* --- REWARD CARD --- */
+	#highlight-card {
+		height: 45em;
+		width: 90em;
+		margin-top: -9em;
+	}
 
-	#reward-card h2 {
-		padding-top: 1.5em;
-		width: 22.5em;
+	#donation-container {
+		height: 100em;
+		width: 90em;
 		margin: auto;
 	}
 
-	#reward-card h3 {
+	#donation-card {
+		height: 83em;
+		width: 57em;
+		float: left;
+	}
+
+	#donation-preview-card {
+		height: 37em;
+		width: 30em;
+	}
+
+	#donation-summary-card {
+		height: 28em;
+		width: 30em;
+		margin-top: 3em;
+	}
+
+	#donation-preview-summary-container {
+		width: 30em;
+		height: 82em;
+		margin: auto;
+		float: right;
+	}
+
+/* --- REWARD CARD --- */
+
+	#reward-card h4 {
 		padding-top: 2em;
 		width: 25em;
 	}
@@ -328,7 +862,7 @@ MEDIA WIDTH SETTINGS
 	}
 
 	.partner-desktop {
-
+		/* display: none; */
 	}
 
 	.reward-partner img {
@@ -359,7 +893,7 @@ MEDIA WIDTH SETTINGS
 		padding-top: 0.1em;
 	}
 
-	/* --- CONGRATS CARD --- */
+/* --- CONGRATS CARD --- */
 
 	#congrats-card img {
 		height: 20em;
@@ -367,7 +901,6 @@ MEDIA WIDTH SETTINGS
 	}
 
 	#congrats-card h2 {
-		padding-top: 1.5em;
 		width: 21em;
 	}
 
@@ -378,5 +911,228 @@ MEDIA WIDTH SETTINGS
 		line-height: 1.375em;
 	}
 
+/* --- HIGHLIGHT CARD --- */
+
+	#highlight-card-placeholder {
+		background-color: #EEE;
+		height: 32em;
+		width: 77em;
+		margin: 2.5em auto 0 auto;
+	}
+
+/* --- DONATION CARD --- */
+
+	#donation-title {
+		font-size: 3.5em;
+		margin: 1em auto;
+	}
+
+	#donation-name-input {
+		font-size: 1.2em;
+		height: 3.75em;
+		width: 38em;
+		margin-top: 2em;
+		padding-left: 1.3em;
+	}
+
+	#donation-box {
+		height: 34.5em;
+		width: 45.6em;
+		margin-top: 1.5em;
+	}
+
+	#donation-box h3 {
+		margin-top: 1.2em;
+	}
+
+	#donation-amount-wrapper {
+		height: 3.5em;
+		width: 41.5em;
+		margin: 1.5em auto 0 auto;
+	}
+
+	#donation-amount-symbol {
+		font-size: 2.4em;
+		margin-top: 0.6em;
+	}
+
+	#donation-amount-input {
+		width: 4.5em;
+		margin-left: 1em;
+	}
+
+	#donation-amount-currency {
+		width: 5em;
+		margin-top: 1.8em;
+	}
+
+	#donation-amount-currency p {
+		font-size: 1.7em;
+	}
+
+	#donation-amount-currency img {
+		margin-left: 0.25em;
+	}
+
+	#donation-reward-wrapper {
+		margin-top: 2em;
+	}
+
+	.donation-reward-box {
+		height: 6em;
+		width: 41.5em;
+		margin: 1em auto 0 auto;
+		padding: 1.4em 2em;
+	}
+
+	#donation-reward-arrows {
+		display: none;
+	}
+
+	#donation-reward-box-1,
+	#donation-reward-box-2,
+	#donation-reward-box-3 {
+		/* display: none; */
+	}
+
+	.reward-box-left {
+		float: left;
+	}
+
+	.reward-box-right {
+		float: right;
+	}
+
+	.reward-box-tier,
+	.reward-box-donated {
+		text-align: left;
+	}
+
+	.reward-box-reward,
+	.reward-box-partners {
+		text-align: right;
+	}
+
+	.reward-box-tier,
+	.reward-box-reward {
+		font-size: 1.6em;
+	}
+
+	.reward-box-donated,
+	.reward-box-partners {
+		margin-top: 0.5em;
+	}
+
+	#donation-message-input {
+		font-size: 1.2em;
+		height: 3.75em;
+		width: 38em;
+		margin-top: 1.5em;
+		padding-left: 1.3em;
+	}
+
+	#donation-card h3 {
+		margin-top: 1.5em;
+	}
+
+	#donation-gif-wrapper {
+		height: 11em;
+		width: 44.5em;
+		margin: 0 6.25em;
+	}
+
+	#donation-gif-arrows {
+		width: 44.5em;
+		margin: 6em auto 0 auto;
+	}
+
+	.donation-gif-box {
+		margin: 2em 0.5em 0 0.5em;
+	}
+
+	#donation-button {
+		height: 3.125em;
+		width: 20em;
+		margin-top: 2.5em;
+
+		font-size: 1.6em;
+		line-height: 0;
+		padding-top: 0.1em;
+	}
+
+/* --- DONATION PREVIEW CARD --- */
+
+	#donation-preview-card h2 {
+		width: 10em;
+	}
+
+	#donation-preview-card br {
+		display: none;
+	}
+
+	#donation-preview-box {
+		height: 25em;
+		width: 22em;
+		margin: 2.5em auto;
+	}
+
+	#donation-preview-box img {
+		height: 10em;
+		width: 10em;
+		margin: 2.5em auto 1em auto;
+	}
+
+	#donation-preview-info {
+		font-size: 1.6em;
+		line-height: 1.6em;
+		width: 11em;
+		margin: auto;
+	}
+
+	#donation-preview-info br {
+		/* display: none; */		
+	}
+
+	#donation-preview-message {
+		font-size: 1.2em;
+		margin-top: 1em;
+	}
+
+/* --- SUMMARY CARD --- */
+
+	#donation-summary-card h2 {
+		width: 11em;
+	}
+
+	#donation-summary-card br {
+		display: none;
+	}
+
+	.summary-headline {
+		font-size: 1.6em;
+		margin-top: 1.75em;
+	}
+
+	#summary-amount-box {
+		margin-top: 1.5em;
+	}
+
+	#summary-symbol {
+		font-size: 3em;
+	}
+
+	#summary-amount {
+		font-size: 3em;
+		margin: 0 0.5em;
+	}
+
+	#summary-currency {
+		font-size: 2em;
+	}
+
+	#summary-reward {
+		font-size: 2.5em;
+		margin-top: 0.5em;
+	}
 
 }
