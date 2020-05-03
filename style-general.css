@@ -51,6 +51,18 @@ h2 {
 	text-align: center;	
 }
 
+.stream-h2 {
+	color: #1E3149;
+}
+
+.charlie-contact-text {
+	color: #1E3149;
+}
+
+.charlie-contact-text span {
+	color: #0A64FF;		
+}
+
 
 /*
 --------------
@@ -93,17 +105,25 @@ COVER
 --------------
 */
 
-#home-cover {
+#home-cover,
+#stream-cover {
 	margin-top: 9em;
-
-	background-color: #0A64FF;
 	text-align: center;
 
 	position: relative;
-	z-index: -1;
+	z-index: -1;	
 }
 
-#home-cover h1 {
+#home-cover {
+	background-color: #0A64FF;
+}
+
+#stream-cover {
+	background-color: #0A64FF;
+}
+
+#home-cover h1,
+#stream-cover h1 {
 	color: white;
 	margin: auto;
 }
@@ -192,7 +212,6 @@ CHARLIE ABOUT
 
 #charlie-about {
 	margin: 0 auto;
-
 	text-align: center;
 }
 
@@ -235,10 +254,64 @@ CHARLIE PARTNERS
 
 }
 
+#charlie-partners-box {
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 #charlie-partners-grid {
 	display: grid;
 	margin: auto;
 }
+
+
+/*
+--------------
+CHARLIE PLATFORMS
+--------------
+*/
+
+#charlie-platforms {
+
+}
+
+#charlie-platforms-box {
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#charlie-platforms-grid {
+	display: grid;
+	margin: auto;
+}
+
+
+/*
+--------------
+CHARLIE DONATION REWARDS
+--------------
+*/
+
+#charlie-rewards {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#charlie-rewards h1 {
+	color: #0A64FF;
+}
+
+#charlie-rewards img {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.rewards-title	{
+	font-weight: 800;
+	font-style: italic;
+	color: #0A64FF;
+}
+
+
 
 
 /*
