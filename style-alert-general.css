@@ -1,0 +1,98 @@
+/*
+--------------
+IMPORTS
+--------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+
+
+/*
+--------------
+BASIC FIXES & SETTINGS
+--------------
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*
+--------------
+STYLING
+--------------
+*/
+
+#donation-contents {
+	text-align: center;
+}
+
+#donation-info,
+#donation-message {
+	font-weight: 700;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 0px 1px 8px #000000;
+}
+
+#donation-image {
+	height: 10em;
+	width: 10em;
+	margin: 2.5em auto 1em auto;
+}
+
+#donation-info {
+	font-size: 1.8em;
+	line-height: 1.6em;
+	width: 11em;
+	margin: auto;
+}
+
+#donation-message {
+	font-size: 1.4em;
+	margin: 1em auto 0 auto;
+}
+
+button {
+	position: absolute;
+	margin: 30em auto 0 -7.5em;
+	border: solid 1px #000000;
+	border-radius: 5px;
+	background-color: white;
+	height: 5em;
+	width: 15em;
+	left: 50%;
+}
+
+
+/*
+--------------
+FADE EFFECTS
+--------------
+*/
+
+
+div#donation-contents {
+opacity:1;
+-webkit-transition: opacity 3s;
+-moz-transition: opacity 3s;     
+transition: opacity 3s; 
+}
+
+div#donation-contents.fade {
+opacity:0;
+}

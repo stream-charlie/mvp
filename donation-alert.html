@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charlie Donation Alerts</title>
+
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="style-alert-general.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+	<button>Click to fade in/out alert</button>
+
+	<div id="donation-contents">
+		<img id="donation-image" src="img/gif-1.gif">
+		<p id="donation-info">
+			<span id="donation-name">Your Name</span> 
+			<br>donated $
+			<span id="donation-amount">Amount</span>
+		</p>
+
+		<p id="donation-message">Your Message</p>
+
+	</div>
+
+</body>
+
+<script>
+		
+	console.log('JS is connected');
+
+	$(document).ready(function(){
+	  $("button").click(function(){
+	    $("#donation-image").fadeToggle();
+	    $("#donation-info").fadeToggle();
+	    $("#donation-message").fadeToggle();
+	  });
+	});
+
+</script>
+
+
+
+</html>
